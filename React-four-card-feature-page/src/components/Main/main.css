@@ -1,0 +1,21 @@
+.layout-grid {
+    display: grid;
+    grid-template-areas:
+        "... two ..."
+        "one two four"
+        "one three four"
+        "... three ..."
+    ;
+    gap: var(--crd-gap);
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .layout-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: var(--crd-gap);
+    }
+}

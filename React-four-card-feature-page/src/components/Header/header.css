@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    margin-block: 3rem 5rem;
+}
+
+h1 {
+    font-weight: var(--fw-light);
+}
+
+h1>span {
+    font-weight: var(--fw-bold);
+}
+
+.wrapper--narrow>p {
+    font-weight: var(--fw-light);
+}

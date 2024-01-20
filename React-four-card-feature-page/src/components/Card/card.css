@@ -1,0 +1,50 @@
+.card {
+    padding: 2rem;
+    border-radius: .5rem;
+    border-top: .35rem solid;
+    box-shadow: 0 6px 8px rgba(0 0 0 / 0.2);
+    max-width: 375px;
+}
+
+.card>p {
+    font-weight: var(--fw-light);
+    font-size: var(--fs-400);
+    margin-block-end: 2rem;
+}
+
+.card>img {
+    display: block;
+    margin-left: auto;
+}
+
+.card:nth-child(1) {
+    grid-area: one;
+}
+
+.card:nth-child(2) {
+    grid-area: two;
+}
+
+.card:nth-child(3) {
+    grid-area: three;
+}
+
+.card:nth-child(4) {
+    grid-area: four;
+}
+
+.red {
+    border-color: var(--clr-red);
+}
+
+.blue {
+    border-color: var(--clr-blue);
+}
+
+.orange {
+    border-color: var(--clr-orange);
+}
+
+.cyan {
+    border-color: var(--clr-cyan);
+}

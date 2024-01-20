@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --clr-red: hsl(4, 100%, 67%);
+    --clr-dark-slate-grey: hsl(234, 29%, 20%);
+    --clr-charcoal-grey: hsl(235, 18%, 26%);
+    --clr-grey: hsl(231, 7%, 60%);
+    --clr-white: hsl(0, 0%, 100%);
+
+    --fs-normal: 1rem;
+}
+
+body {
+    background: var(--clr-charcoal-grey);
+}
+
+img {
+    display: block;
+}
